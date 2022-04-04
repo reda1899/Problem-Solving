@@ -1,0 +1,40 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+	//swapping without a temp (third variable).
+
+
+
+	// input
+	int x, y;
+	cout << "Enter the value of x" << endl;
+	cin >> x;
+	cout << "Enter the value of y" << endl;
+	cin >> y;
+
+	cout << " x = " << x << " and y = " << y << endl;
+
+	//processing
+	x = x + y;
+	y = x - y;
+	x = x - y;
+
+
+	//output
+	cout << " x = " << x << " and y = " << y << endl;
+
+
+
+
+	cout << "endl";
+	system("pause");
+}
+
+
+
+//reda_ibrahim
